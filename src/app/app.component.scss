@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "right left";
+    width: 100%;
+    height: 100%;
+  }
+  
+  .right { grid-area: right; 
+    background-color: wheat;
+  }
+  
+  .left { grid-area: left;
+    background: url(bac.jpg) no-repeat;
+    background-size: cover;
+  
+  }
+  
